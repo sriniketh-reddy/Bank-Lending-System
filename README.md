@@ -30,7 +30,7 @@ A comprehensive loan management solution with a modern, responsive React fronten
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sriniketh-reddy/Bank-Lending-System.git
    cd Bank-Lending-System
    ```
 
