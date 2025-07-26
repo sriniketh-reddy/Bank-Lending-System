@@ -34,22 +34,26 @@ A comprehensive loan management solution with a modern, responsive React fronten
    cd bank-lending-system
    ```
 
-2. **Install dependencies**
+2. **Setup project (recommended)**
+   ```bash
+   npm run setup
+   ```
+   This will install all dependencies and initialize the database in one step.
+
+   **OR**
+
+   **Manual steps:**
    ```bash
    npm run install-all
-   ```
-
-3. **Initialize database**
-   ```bash
    npm run init-db
    ```
 
-4. **Start development servers**
+3. **Start development servers**
    ```bash
    npm run dev
    ```
 
-5. **Access the application**
+4. **Access the application**
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:3001
 
@@ -89,6 +93,7 @@ A comprehensive loan management solution with a modern, responsive React fronten
 - **Reset database**: `npm run reset-db`
 
 ## Available Scripts
+- `npm run setup` - Install all dependencies and initialize the database (recommended)
 - `npm start` - Start production server
 - `npm run dev` - Start development servers (frontend + backend)
 - `npm run build` - Build frontend for production
